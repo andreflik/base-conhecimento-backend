@@ -8,6 +8,7 @@ require('./config/mongodb')
 
 app.db = db
 app.mongoose = mongoose
+app.arguments(cors({}));
 
 
 consign()
