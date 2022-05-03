@@ -2,6 +2,7 @@ const app  = require('express')()
 const consign = require('consign')
 const db = require('./config/db')
 const mongoose = require('mongoose')
+const cors = require('cors')
 
 require('./config/mongodb')
 
